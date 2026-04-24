@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portofolio - Praja Aditya</title>
+    <title>Portofolio - [Nama Siswa]</title>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
@@ -11,7 +11,7 @@
 </head>
 <body>
     <nav class="navbar">
-        <a href="#" class="logo">Praja Aditya</a>
+        <a href="#" class="logo">[Nama Siswa]</a>
         <div class="nav-links">
             <a href="#keahlian">Keahlian</a>
             <a href="#proyek">Proyek</a>
@@ -22,12 +22,12 @@
     <div class="container animate-fade">
         <section class="hero">
             <div class="hero-text">
-                <h1>Halo, Saya <br><span>Praja Aditya</span></h1>
+                <h1>Halo, Saya <br><span>[Nama Siswa]</span></h1>
                 <p>Siswa Rekayasa Perangkat Lunak di SMK Multi Karya Medan. Berfokus pada pengembangan aplikasi yang fungsional dan antarmuka yang bersih.</p>
                 <a href="#kontak" class="btn">Mari Berdiskusi</a>
             </div>
             <div class="hero-image">
-                <img src="https://e7.pngegg.com/pngimages/89/950/png-clipart-slank-reggae-music-song-orkes-sakit-hati-slank-logo-album-logo.png" alt="Foto Profil">
+                <img src="https://ui-avatars.com/api/?name=Nama+Siswa&background=f8fafc&color=0f172a&size=320" alt="Foto Profil">
             </div>
         </section>
 
@@ -50,12 +50,13 @@
         <h2 id="kontak" class="section-title">Hubungi Saya</h2>
         <div class="contact-links">
             <a href="mailto:email.siswa@gmail.com">Email</a>
-            <a href="https://instagram.com/aadittt_14" target="_blank">Instagram</a>
+            <a href="https://linkedin.com/in/namasiswa" target="_blank">LinkedIn</a>
+            <a href="https://github.com/namasiswa" target="_blank">GitHub</a>
         </div>
     </div>
 
     <footer>
-        <p>&copy; 2026 Praja Aditya</p>
+        <p>&copy; 2026 [Nama Siswa]</p>
     </footer>
 
     <script src="data.js"></script>
@@ -67,6 +68,7 @@
         for (const [id, data] of Object.entries(databaseProyek)) {
             
             let deskripsiSingkat = data.latar.substring(0, 90) + "...";
+
             htmlCard += `
                 <div class="card">
                     <img src="${data.gambar}" alt="${data.judul}">
